@@ -1,0 +1,175 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: rgb(232, 210, 253);
+}
+
+h1, h2, h3 {
+  margin: 0.5em 0;
+  color: black;
+}
+
+p {
+  color: #666;
+}
+
+.header {
+  background: #4CAF50;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.introduction {
+  max-width: 600px;
+  margin: auto;
+}
+
+.introduction h1 {
+  font-size: 3em;
+}
+
+.introduction p {
+  font-size: 1.2em;
+}
+
+.button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.features {
+  padding: 50px 20px;
+  background: #e9dcdc;
+  text-align: center;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1;
+  max-width: 30%;
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Pricing-card {
+  flex: 1;
+  max-width: 30%;
+  margin: 10px;
+  padding: 20px;
+  background-color: rgb(218, 180, 253);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Pricing-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Pricing-card ul li {
+  margin: 10px 0;
+}
+
+.contact-section {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.contact-section form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-section form input, .contact-section form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-section form button {
+  width: 100%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-section form button:hover {
+  background-color: #555;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+}
+
+.footer-text {
+  color: white;
+}
+
+@media (max-width: 750px) {
+  .Pricing-card {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 800px) {
+  .Pricing-card {
+    max-width: 100%;
+  }
+}
